@@ -1,6 +1,13 @@
 .content {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
+  padding: 40px;
+  margin: 40px;
+}
+
+.content Listing {
+  margin: 10px;
 }
