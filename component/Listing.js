@@ -5,7 +5,34 @@ import Image from 'next/image'
 export default function Card(props) {
     return (
         <div className={styles.listing}>
-            <p>{props.name}</p>
+            <div className={styles.container}>
+                <Image className={styles.carImage} src={props.image} height={250} width={333} />
+                <div className={styles.tags}><div className={styles.used}>Used</div></div>
+                <div className={styles.spec}>
+                    <div className={styles.spectag}>
+                        <div className={styles.text}>32k Miles</div>
+                    </div>
+                    <div className={styles.spectag}>
+                        <div className={styles.text}>Hybrid</div>
+                    </div>
+                    <div className={styles.spectag}>
+                        <div className={styles.text}>Manual</div>
+                    </div>
+                    <div className={styles.spectag}>
+                        <div className={styles.text}>SUV</div>
+                    </div>
+                </div>
+            </div>
+            <Image className={styles.star} src='/Star.png' height={20} width={20} />
+            <div className={styles.name}>{props.name}</div>
+            <div className={styles.carType}>CLA 250e Coupe Shooting Break</div>
+            <div className={styles.pricing}>
+                <div className={styles.price}>£550.90 /mo (PCP)</div>
+                <div className={styles.priceCalculate}>
+                    <div className={styles.priceFull}>£23,300</div>
+                    <div className={styles.calculate}>Calculate</div>
+                </div>
+            </div>
         </div>
     );
 }

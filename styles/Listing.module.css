@@ -6,7 +6,6 @@
   flex-direction: column;
   align-items: center;
   padding: 0px;
-
   position: static;
   width: 333px;
   height: 364px;
@@ -25,4 +24,295 @@
   flex-grow: 0;
   margin: 0px 15px;
   margin: 10px;
+}
+
+.carImage {
+  border-radius: 16px 16px 0 0;
+  position: container;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.container {
+  position: relative;
+}
+
+.tags {
+  /* listing/tags */
+
+  /* Auto Layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1px 10px;
+
+  position: absolute;
+  width: 57px;
+  height: 29px;
+  left: 10px;
+  top: 10px;
+
+  /* Framework/Dark 1 */
+  background: #3f3a50;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  /* Blur/Background Blur */
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 8px;
+}
+
+.used {
+  /* Used */
+
+  position: static;
+  width: 37px;
+  height: 27px;
+  /* left: calc(50% - 37px / 2); */
+  top: 1px;
+
+  /* All/Headings/Buttons */
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  /* identical to box height, or 169% */
+
+  /* Text/White */
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 5px; */
+}
+
+.spec {
+  /* Spec tags */
+
+  /* Auto Layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 254px;
+  height: 20px;
+  left: 10px;
+  bottom: 10px;
+}
+
+.spectag {
+  /* listing/tags */
+
+  /* Auto Layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1px 10px; */
+
+  position: static;
+  /* width: 45px;
+  height: 20px; */
+  left: 209px;
+  top: 0px;
+
+  /* Framework/Dark 1 */
+  background: #3f3a50;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 0px 1px 4px 0px;
+}
+
+.text {
+  /* 32k miles */
+
+  position: static;
+  /* width: 55px;
+  height: 18px; */
+  left: calc(50% - 55px / 2);
+  top: 1px;
+  padding: 1px 4px 0px 4px;
+
+  /* All/Body/Caption */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  /* line-height: 18px; */
+  /* identical to box height, or 150% */
+
+  /* Text/White */
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 5px; */
+}
+
+.name {
+  /* 2014 (64) Mercedes-Benz */
+
+  position: static;
+  width: 313px;
+  height: 24px;
+  left: calc(50% - 313px / 2);
+  top: 0px;
+
+  /* Desktop/Body/Paragraph */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Text/Black */
+  color: #000000;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.carType {
+  /* CLA 250e Coupe Shooting Break */
+
+  position: static;
+  width: 313px;
+  height: 18px;
+  left: calc(50% - 313px / 2);
+  top: 24px;
+
+  /* All/Body/Caption */
+  /* font-family: SF Pro Text; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  /* Text/Grey */
+  color: #55595d;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.price {
+  /* £550.90 /mo (PCP) */
+
+  /* position: static; */
+  /* width: 146.5px; */
+  /* height: 24px; */
+  /* left: calc(50% - 146.5px / 2); */
+  top: 0px;
+
+  /* All/Headings/Heading 4 */
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  /* Text/Black */
+  color: #000000;
+
+  /* Inside Auto Layout */
+  flex: none;
+  /* order: 0; */
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.priceFull {
+  /* £23,300 */
+
+  position: static;
+  width: 48px;
+  height: 18px;
+  left: calc(50% - 48px / 2 - 49.25px);
+  top: 0px;
+
+  /* All/Body/Caption */
+  /* font-family: SF Pro Text; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  /* Text/Black */
+  color: #000000;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.calculate {
+  /* Calculate */
+
+  position: static;
+  width: 53px;
+  height: 18px;
+  left: calc(50% - 53px / 2 + 9.25px);
+  top: 0px;
+
+  /* All/Body/Caption */
+  /* font-family: SF Pro Text; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  /* Brand/Primary */
+  color: #7572ff;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.priceCalculate {
+  display: flex;
+  flex-direction: row;
+}
+
+.star {
+  position: absolute;
+  left: 4.17%;
+  right: 4.17%;
+  top: 4.17%;
+  bottom: 4.17%;
+
+  /* Brand/Primary */
+  /* background: #7572ff; */
+  border-radius: 1px;
 }
