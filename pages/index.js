@@ -19,13 +19,19 @@ export default function Home() {
       <div className={styles.navigationBar} />
       <div className={styles.finance} />
 
-      {/* <div className={styles.dashboard}>
+      <div className={styles.dashboard}>
         <div className={styles.filters} />
-      </div> */}
+        <div>
+          <ListingsFeed />
+          <div className={styles.financeBanner} />
+        </div>
+      </div>
 
-      <ListingsFeed />
+
 
       <footer className={styles.footer}>
+        <div className={styles.legal} />
+        <div className={styles.main} />
       </footer>
     </div>
   )
