@@ -23,11 +23,17 @@ export default function Card(props) {
                     </div>
                 </div>
             </div>
-            <Image className={styles.star} src='/Star.png' height={20} width={20} />
-            <div className={styles.name}>{props.name}</div>
-            <div className={styles.carType}>CLA 250e Coupe Shooting Break</div>
+            <div className={styles.heading}>
+                <div>
+                    <div className={styles.name}>{props.name}</div>
+                    <div className={styles.carType}>CLA 250e Coupe Shooting Break</div>
+                </div>
+                {/* <Image className={styles.star} src='/Star.png' height={15} width={15} /> */}
+            </div>
             <div className={styles.pricing}>
-                <div className={styles.price}>£550.90 /mo (PCP)</div>
+                <div className={styles.price}>
+                    £550.90<span className={styles.priceLabel}>/mo (PCP)</span>
+                </div>
                 <div className={styles.priceCalculate}>
                     <div className={styles.priceFull}>£23,300</div>
                     <div className={styles.calculate}>Calculate</div>

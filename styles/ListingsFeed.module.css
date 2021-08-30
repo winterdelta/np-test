@@ -4,8 +4,8 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
-  padding: 40px;
-  margin: 40px;
+  /* padding: 40px; */
+  /* margin: 40px; */
 }
 
 .content Listing {

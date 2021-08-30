@@ -2,6 +2,7 @@ import Head from 'next/head'
 import ListingsFeed from '../component/ListingsFeed'
 import Nav from '../component/Nav'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -15,7 +16,12 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet" />
       </Head>
 
-      <Nav />
+      <div className={styles.navigationBar} />
+      <div className={styles.finance} />
+
+      {/* <div className={styles.dashboard}>
+        <div className={styles.filters} />
+      </div> */}
 
       <ListingsFeed />
 

@@ -1,0 +1,28 @@
+.navigationBar {
+    width: 100vw;
+    height: 100px;
+    background-image: url('../public/nav\ bar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.finance {
+    width: 100vw;
+    height: 137px;
+    background-image: url('../public/Finance\ Banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filters {
+    width: 298px;
+    height: 1031px;
+    background-image: url('../public/Search.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+}

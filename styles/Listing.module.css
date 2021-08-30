@@ -39,6 +39,37 @@
   position: relative;
 }
 
+.details {
+  /* Details */
+
+  /* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 0px;
+
+  position: static;
+  width: 333px;
+  height: 114px;
+  left: 0px;
+  top: 250px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.heading {
+  /* Heading | Save */
+  margin-left:5px;
+
+  display: flex;
+  flex-direction: row;
+}
+
 .tags {
   /* listing/tags */
 
@@ -46,7 +77,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 1px 10px;
+  padding: 1px 8px;
 
   position: absolute;
   width: 57px;
@@ -67,17 +98,17 @@
   /* Used */
 
   position: static;
-  width: 37px;
-  height: 27px;
+  width: fit-content;
+  height: fit-content;
   /* left: calc(50% - 37px / 2); */
-  top: 1px;
+  /* top: 1px; */
 
   /* All/Headings/Buttons */
   font-family: Overpass;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 27px;
+  /* line-height: 27px; */
   /* identical to box height, or 169% */
 
   /* Text/White */
@@ -218,10 +249,44 @@
   margin: 0px 0px;
 }
 
+.pricing {
+  /* Pricing | Button */
+
+  margin-left: 10px;
+  margin-bottom: 10px;
+  /* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+
+  position: static;
+  /* width: 333px; */
+  /* height: 42px; */
+
+  /* Inside Auto Layout */
+  /* flex: none; */
+  /* order: 2; */
+  /* align-self: stretch; */
+  /* flex-grow: 0; */
+  margin-top: 20px;
+}
+
+.priceLabel {
+  font-size: smaller;
+  font-weight: normal;
+  color: #55595d;
+}
+
 .price {
   /* £550.90 /mo (PCP) */
-
-  /* position: static; */
+  position: static;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding-left: 0px;
   /* width: 146.5px; */
   /* height: 24px; */
   /* left: calc(50% - 146.5px / 2); */
@@ -234,16 +299,17 @@
   font-size: 18px;
   line-height: 24px;
   /* identical to box height, or 133% */
+  margin-left: 5px;
 
   /* Text/Black */
   color: #000000;
 
   /* Inside Auto Layout */
-  flex: none;
+  /* flex: none; */
   /* order: 0; */
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 0px 0px;
+  /* align-self: stretch; */
+  /* flex-grow: 0; */
+  /* margin: 0px 0px; */
 }
 
 .priceFull {
