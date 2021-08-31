@@ -1,5 +1,7 @@
 ## Notes
 
+Thank you for the op!
+
 The placeholders don't size perfectly and aren't really of an ideal resolution.
 React JS / NextJS implementation is responsive and handles breakpoints gracefully.
 Mobile elements are rendered.
@@ -8,6 +10,9 @@ Here are a few screenshots of the build:
 
 ![alt text](https://github.com/winterdelta/np-test/blob/main/public/image1.png?raw=true)
 ![alt text](https://github.com/winterdelta/np-test/blob/main/public/image2.png?raw=true)
+
+Here's a URL to the build! [np-test.vercel.app](np-test.vercel.app)
+
 
 ---
 
