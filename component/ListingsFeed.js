@@ -48,6 +48,7 @@ export default function ListingsFeed() {
 
     return (
         <div className={styles.content}>
+            <div className={styles.listingsType} />
 
             {data.map(function (d, idx) {
                 return (

@@ -11,3 +11,11 @@
 .content Listing {
   margin: 10px;
 }
+
+.listingsType {
+  width: 1029px;
+  height: 50px;
+  background-image: url("/public/Listing\ type.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

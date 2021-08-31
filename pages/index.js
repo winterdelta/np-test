@@ -16,22 +16,20 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet" />
       </Head>
 
-      <div className={styles.navigationBar} />
-      <div className={styles.finance} />
+      {/* <div className={styles.navigationBar} />
+      <div className={styles.finance} /> */}
 
       <div className={styles.dashboard}>
-        <div className={styles.filters} />
+        {/* <div className={styles.filters} /> */}
         <div>
           <ListingsFeed />
-          <div className={styles.financeBanner} />
+          {/* <div className={styles.financeBanner} /> */}
         </div>
       </div>
 
-
-
       <footer className={styles.footer}>
-        <div className={styles.legal} />
-        <div className={styles.main} />
+        {/* <div className={styles.legal} />
+        <div className={styles.main} /> */}
       </footer>
     </div>
   )

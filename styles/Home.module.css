@@ -6,6 +6,17 @@
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  .navigationBar,
+  .finance,
+  .filters,
+  .legal,
+  .main,
+  .financeBanner {
+    display: none;
+  }
+}
+
 .finance {
   width: 100vw;
   height: 137px;
